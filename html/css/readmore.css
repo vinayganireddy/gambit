@@ -1,0 +1,50 @@
+.ourteam-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: #000000; */
+    color: rgb(255, 4, 4);
+    background: url("https://res.cloudinary.com/dfntp7jog/image/upload/v1732815951/attachment_84720003-removebg-preview_qvpvdm.png");
+    background-repeat: no-repeat;
+    font-weight: 600;
+   background-size: contain;
+   
+
+}
+.our-team{
+    color: blue;
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+.ourteam-container div h2{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.head_quaters{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+}
+.head_quaters div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    box-shadow: 1px 1px 3px 1px gray;
+
+}
+.head_quaters div h1{
+    color: rgb(204, 188, 14);
+    font-size: 2rem;
+    font-weight: 650;
+}
