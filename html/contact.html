@@ -73,7 +73,7 @@
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-md-6">
-                     <form class="mail_section_1" id="contactForm">
+                     <form class="mail_section_1" id="contactForm" onsubmit="sendEmail(event)">
                         <h1 class="contact_taital">Contact Us</h1>
                         <input type="text" class="mail_text" placeholder="Name" name="text" required />
                         <input type="text" class="mail_text" placeholder="Email" name="text" required />
@@ -111,7 +111,9 @@
 
       <!-- copyright section end -->
       <!-- Javascript files-->
-       <script src="./js/email.js"></script>
+      <script type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>       <script src="./js/email.js"></script>
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -121,8 +123,7 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script src="js/owl.carousel.js"></script>      
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    </body>
 </html>
